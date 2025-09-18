@@ -1,0 +1,185 @@
+
+/* Barra de navegación */
+.navbar {
+    background-color: #DF92C1;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-family: 'Bai Jamjuree', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.navbar .nav-link {
+    background-color: #f5c9d2;
+    color: #000000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0px 5px 10px #df92c1;
+}
+
+.navbar .nav-link:hover {
+    background-color: #e0a6b9; /* un tono más oscuro que #f5c9d2 */
+    cursor: pointer;           /* cambia el cursor para indicar que es clickeable */
+    transition: background-color 0.3s; /* efecto suave al cambiar de color */
+}
+
+
+
+
+/* Selector de tipo */
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #ffe8e3;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+    background-color: #df92c1;
+    margin: 0;
+    text-align: center;
+    color: #000000;
+}
+
+p {
+    font-size: 22px;
+}
+
+img {
+    height: auto;
+}
+
+/* Selector de clase */
+.resaltado {
+    color: #8a2dbd;
+}
+
+.imagen-principal {
+    display: block;
+    margin: 0 auto;
+    width: 300px;
+}
+
+.boton {
+    margin-right: 20px;
+    margin-top: 0px;
+    text-decoration: none;
+    background-color: #f5c9d2;
+    color: #000000;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 5px 10px #df92c1;
+    display: inline-block;
+}
+
+#iconos {
+    display: flex;              /* activa flexbox */
+    justify-content: center;    /* centra los íconos horizontalmente */
+    align-items: center;        /* centra los íconos verticalmente */
+    gap: 20px;                  /* espacio entre los íconos */
+    margin: 20px 0;             /* espacio arriba y abajo de la sección */
+    background-color: aqua;
+}
+
+#iconos img {
+    width: 40px;                /* tamaño de los íconos */
+    height: 40px;               /* asegura que sean cuadrados */
+    transition: transform 0.3s; /* efecto al pasar el mouse */
+}
+
+#iconos img:hover {
+    transform: scale(1.2);      /* agranda el icono al pasar el mouse */
+}
+
+
+/* ===================== */
+/* FOOTER NUEVO */
+/* ===================== */
+.footer-custom {
+    background-color: #EFDCCB;
+    margin-top: 0;
+    padding: 0px;
+    text-align: center;
+    min-height: 80px;
+}
+
+.footer-col {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-top: 10px;
+}
+
+.footer-list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-volver-arriba {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img-x,
+.footer-img-in {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-img-ig {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-col1 h3,
+.footer-col2 h3,
+.footer-col3 h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-col1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.footer-col2 ul li {
+    margin: 2px 0;
+    padding: 0;
+}
+
+.footer-col2 ul li a {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+
+
+
+

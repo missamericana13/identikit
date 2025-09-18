@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #ffe8e3;
+  font-family: 'Bai Jamjuree', sans-serif;
+}
+
+nav {
+  background-color: #DF92C1;
+  margin: 0;
+  padding: 15px;
+  text-align: center;
+  font-weight: 500;
+  font-style: normal;
+}
+
+nav a {
+  background-color: #f5c9d2;
+  color: #000000;
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  margin: 0 10px;
+  box-shadow: 0px 5px 10px #df92c1;
+}
+
+.titulo {
+  font-size: 26px;
+}
+
+.gatos {
+  background-color: #eeeeee;
+  margin-left: 275px;
+  padding: 10px;
+  font-size: 20px;
+  width: 75%;
+  margin-top: 25px;
+  margin-bottom: 20px;
+
+}
+
+
+.gatos p {
+  display: block;        /* Para que quede arriba de las imágenes */
+  text-align: center;
+  margin: 0 0 10px 0;    /* Menos espacio abajo del texto */
+}
+
+.gatos img {
+  width: 150px;
+  margin-left: 5px;
+}
+
+.recitales {
+  background-color: #FED4E0;
+  width: 60%;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 25px;
+  margin-bottom: 20px;
+}
+
+.recitales img {
+  margin-left: 5px;
+  width: 200px;
+}
+
+.recitales p {
+  text-align: center;
+}
+
+footer {
+  background-color: #EFDCCB;
+  margin-top: 0;
+  padding: 5px;
+  text-align: center;
+}
+
+.columna {
+  display: inline-block;
+  vertical-align: top;
+  width: 33%;
+  min-width: 200px;
+}
+
+.columna ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.columna ul li a {
+  color: black;
+  text-decoration: none;
+}
+
+.redes {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.redes img {
+  width: 50px;
+  height: 50px;
+}
+
+.redes img[alt="Instagram"] {
+  width: 60px;
+  height: 60px;
+}

@@ -1,0 +1,264 @@
+/* Estilo general */
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #ffe8e3;
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+/* NAVBAR */
+nav {
+    background-color: #DF92C1;
+    padding: 15px;
+    text-align: center;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.nav-link {
+    background-color: #f5c9d2;
+    color: #000;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin: 0 10px;
+    box-shadow: 0px 5px 10px #df92c1;
+}
+
+.nav-link:hover {
+    background-color: #e0a4b5;
+}
+
+/* Layout principal */
+.contenedor {
+    display: flex;
+    text-align: center;
+    min-height: 100vh;
+    margin-top: 10px;
+}
+
+/* Aside (izquierda) */
+.aside {
+    width: 25%;
+    background-color: rgb(130, 176, 236);
+    margin: 0 2px 0 7px;
+}
+
+.aside h1 a {
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    margin: 0;
+}
+
+.aside ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aside .toggle {
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+}
+.toggle:hover {
+    color: #537df0;
+    cursor: pointer;
+}
+
+.submenu {
+    display: none;
+    list-style-type: none;
+    padding-left: 20px;
+    margin: 0;
+}
+.submenu a {
+    color: white;
+    text-decoration: none;
+}
+.submenu a:hover {
+    color: #4a47d4;
+    text-decoration: underline;
+}
+
+/* Main (derecha) */
+.main {
+    flex: 1;
+    background-color: rgb(238, 115, 193);
+    color: white;
+    margin: 0 7px 0 2px;
+}
+
+.main h1 {
+    padding: 20px;
+    margin: 0;
+}
+
+/* Imagen principal */
+.main a img {
+  max-width: 800px;   /* tamaño controlado */
+  width: 100%;        /* se adapta al contenedor */
+  height: auto;
+  display: block;
+  margin: 0 auto 20px auto; /* centrada y con margen inferior */
+}
+
+.main img {
+  max-width: 800px;
+}
+
+.main a {
+  color: white;
+  text-decoration: none;
+}
+
+/*.main a:hover {
+  text-decoration: underline;
+}*/
+
+/* Contenido de letra + spotify */
+.contenido {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin: 0 20px 20px 20px;
+    margin-top: 15px;
+    
+}
+
+/* Div de la letra */
+.letra {
+    flex: 1;
+    padding: 8px 15px;   /* menos padding arriba/abajo */
+    border: 2px solid black;
+    text-align: center;
+    color: white;
+    overflow-y: auto;
+    max-height: 900px;
+    white-space: pre-line;
+}
+
+.letra p {
+    font-weight: bold;
+    text-align: center;
+    margin: 5px 0 10px 0;   /* menos espacio arriba y abajo del título */
+    font-weight: 500;
+}
+
+/* Div de spotify */
+.spotify {
+    flex: 1;
+    padding: 10px 15px;   /* menos padding vertical */
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.spotify iframe {
+    margin-bottom: 5px;   /* espacio más chico entre iframe e imagen */
+    width: 100%;
+    height: 300px;
+}
+
+.spotify img {
+    margin-top: 5px;      /* más chico el margen superior */
+    max-width: 450px;
+    border-radius: 5px;
+    margin-bottom: 10px;  /* menos margen inferior */
+}
+
+
+/* FOOTER NUEVO */
+.footer-custom {
+    background-color: #EFDCCB;
+    margin-top: 0;
+    padding: 0px;
+    text-align: center;
+    min-height: 80px;
+}
+
+.footer-col {
+    display: inline-block;
+    vertical-align: top;
+    width: 33%;
+    margin-top: 10px;
+}
+
+.footer-list {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0px;
+}
+
+.footer-link {
+    color: black;
+    text-decoration: none;
+}
+
+.footer-volver-arriba {
+    display: inline-block;
+    margin-top: 15px;
+}
+
+.footer-link:hover {
+    text-decoration: underline;
+}
+
+.footer-redes {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-img-x,
+.footer-img-in {
+    width: 50px;
+    height: 50px;
+}
+
+.footer-img-ig {
+    width: 60px;
+    height: 60px;
+}
+
+.footer-col1 h3,
+.footer-col2 h3,
+.footer-col3 h3 {
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-col1 p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+.footer-col2 ul li {
+    margin: 2px 0;
+    padding: 0;
+}
+
+.footer-col2 ul li a {
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    line-height: 1.1;
+}
+
+/* RESPONSIVE */
+/* @media (max-width: 900px) {
+    .contenido {
+        flex-direction: column;
+    }
+    .letra, .spotify {
+        max-height: none;
+    }
+}*/
